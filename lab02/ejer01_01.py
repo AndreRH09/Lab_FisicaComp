@@ -51,7 +51,7 @@ def aceleracion(masa1, masa2):
     tens = tension(masa1, acel)
 
   else:
-    acel = FINAL_Gravedad * (masa2 - masa1) / (masa2 + masa1)
+    acel = FINAL_Gravedad * (masa1 - masa2) / (masa2 + masa1)
     tens = tension(masa2, acel)
 
   print(f"La aceleracion del sistema es:\t {acel:.2f} m/s^2")
