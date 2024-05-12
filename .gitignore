@@ -1,0 +1,33 @@
+# Archivos generados por Python
+*.pyc
+__pycache__/
+
+# Directorio de entorno virtual (si estás utilizando virtualenv)
+venv/
+env/
+
+# Archivos de caché y compilación
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyc
+__pycache__/
+
+# Carpeta de configuración y archivos de caché para Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Carpeta de dependencias y entornos
+env/
+env3/
+venv/
+.venv/
+ENV/
+env-bak/
+env1/
+venv/
+env/
+node_modules/
+jspm_packages/
